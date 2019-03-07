@@ -1,0 +1,6 @@
+[submodule "devilbox"]
+	path = devilbox
+	url = https://github.com/cytopia/devilbox
+[submodule "data/www/symfony-hello-app/project"]
+	path = data/www/symfony-hello-app/project
+	url = https://github.com/rezonanc/symfony-hello-app.git
