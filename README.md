@@ -34,6 +34,12 @@ docker-compose up -d
 docker-compose exec --user devilbox php bash -c "cd /shared/httpd/symfony-hello-app/project/ && composer install -n"
 ```
 
+## Execute tests
+
+```bash
+docker-compose exec --user devilbox php bash -c "cd /shared/httpd/symfony-hello-app/project/ && bin/phpunit"
+```
+
 ## Check development environment dashboard
 
 * Visit http://127.0.0.1
